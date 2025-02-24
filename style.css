@@ -7,6 +7,7 @@
 body {
   background-color: black;
 }
+
 #container {
   width: 100%;
   max-width: 2000px;
@@ -16,16 +17,18 @@ body {
 }
 
 #container p {
+  display: flex;
   position: absolute;
-  text-align: center;
+}
+
+#container p {
+  justify-content: center;
   font-size: 100px;
-  display: inline;
-  padding: 30px 300px;
+  padding: 30px 30px;
 }
 
 #profile {
   text-align: center;
-  padding: 24px;
 }
 
 #profile img {
