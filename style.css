@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+#container {
+  width: 100%;
+  max-width: 2000px;
+  margin: 0;
+  padding: 0;
+  border: solid 1px red;
+}
+
+#container p {
+  position: absolute;
+  text-align: center;
+  font-size: 100px;
+  display: inline;
+  padding: 30px 300px;
+}
+
+#profile {
+  text-align: center;
+  padding: 24px;
+}
+
+#profile img {
+  width: 1320px;
+}
