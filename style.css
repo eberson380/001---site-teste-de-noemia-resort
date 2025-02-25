@@ -35,7 +35,6 @@ ul li a {
 }
 
 #container p {
-  justify-content: center;
   font-size: 100px;
   padding: 30px 30px;
   right: 50%;
@@ -53,18 +52,11 @@ ul li a {
 /*caixa das fotos de baixo*/
 #container2 {
   display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 /*fotos, titulos e texto de baixo*/
 #profile1 {
   flex-direction: row;
-}
-#profile1 img {
-  padding: 50px;
-  height: 1000px;
-  flex-direction: ;
 }
 #profile1 h1 {
   text-align: right;
@@ -75,12 +67,12 @@ ul li a {
   text-align: right;
   padding: 0px 60px;
 }
-
-#profile2 img {
+#profile1 img {
   padding: 50px;
   height: 1000px;
-  flex-direction: right;
+  flex-direction: ;
 }
+
 #profile2 h1 {
   text-align: left;
   padding: 0px 60px;
@@ -90,12 +82,12 @@ ul li a {
   text-align: left;
   padding: 0px 60px;
 }
-
-#profile3 img {
+#profile2 img {
   padding: 50px;
   height: 1000px;
-  justify-content: left;
+  flex-direction: right;
 }
+
 #profile3 h1 {
   text-align: right;
   padding: 0px 60px;
@@ -105,12 +97,12 @@ ul li a {
   text-align: right;
   padding: 0px 60px;
 }
-
-#profile4 img {
+#profile3 img {
   padding: 50px;
   height: 1000px;
   justify-content: left;
 }
+
 #profile4 h1 {
   text-align: left;
   padding: 0px 60px;
@@ -120,12 +112,12 @@ ul li a {
   text-align: left;
   padding: 0px 60px;
 }
-
-#profile5 img {
+#profile4 img {
   padding: 50px;
   height: 1000px;
   justify-content: left;
 }
+
 #profile5 h1 {
   text-align: right;
   padding: 0px 60px;
@@ -134,4 +126,9 @@ ul li a {
   font-size: 30px;
   text-align: right;
   padding: 0px 60px;
+}
+#profile5 img {
+  padding: 50px;
+  height: 1000px;
+  justify-content: left;
 }
