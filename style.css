@@ -10,8 +10,12 @@ body {
   background-size: cove;
   background-position: center;
   background-repeat: repeat;
+}
 
-  
+#container {
+  width: 100%;
+  max-width: 2000px;
+  margin: 20px auto 0px;
 }
 
 /* botões de cima */
@@ -29,17 +33,16 @@ ul li a {
   color: black;
 }
 
-#container {
-  width: 100%;
+#container0 {
   display: flex;
 }
 
 /*texto da foto*/
-#container p {
+#container0 p {
   position: absolute;
 }
 
-#container p {
+#container0 p {
   font-size: 100px;
   padding: 30px 30px;
   right: 50%;
@@ -66,12 +69,10 @@ ul li a {
 #container1 p {
   font-size: 50px;
   padding: 30px 60px;
-  background-color: rgba(255, 255, 255, 0.5)
-
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .container1 img {
-  
 }
 
 #container2 {
@@ -81,6 +82,11 @@ ul li a {
   padding: 50px;
   height: 1000px;
 }
+#container2 p {
+  font-size: 50px;
+  padding: 30px 60px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
 
 #container3 {
   display: flex;
@@ -88,6 +94,11 @@ ul li a {
   justify-content: left;
   padding: 50px;
   height: 1000px;
+}
+#container3 p {
+  font-size: 50px;
+  padding: 30px 60px;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 #container4 {
@@ -97,6 +108,11 @@ ul li a {
   padding: 50px;
   height: 1000px;
 }
+#container4 p {
+  font-size: 50px;
+  padding: 30px 60px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
 
 #container5 {
   display: flex;
@@ -104,4 +120,9 @@ ul li a {
   justify-content: left;
   padding: 50px;
   height: 1000px;
+}
+#container5 p {
+  font-size: 50px;
+  padding: 30px 60px;
+  background-color: rgba(255, 255, 255, 0.5);
 }
