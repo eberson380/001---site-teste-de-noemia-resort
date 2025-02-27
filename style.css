@@ -165,6 +165,15 @@ ul li a {
   background-color: black;
 }
 
+#profile1 {
+  display: flex;
+  justify-content: center;
+}
+
+#profile1 img {
+  width: 70px;
+}
+
 @media (max-width: 1260px) {
   /*celular link*/
   ul {
@@ -292,4 +301,13 @@ ul li a {
     color: rgb(21, 255, 0);
     background-color: black;
   }
+
+  #profile1 {
+  display: flex;
+  justify-content: center;
+}
+
+#profile1 img {
+  width: 30px;
+}
 }
