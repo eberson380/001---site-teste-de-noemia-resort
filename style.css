@@ -6,7 +6,12 @@
 
 body {
   /*background-color: rgb(0, 186, 219);*/
-  /* background-image: url(./assets/capa\ de\ fundo.jpeg); */
+  background-image: url(./assets/capa\ de\ fundo\ 3.jpg);
+  background-size: cove;
+  background-position: center;
+  background-repeat: repeat;
+
+  
 }
 
 /* botões de cima */
@@ -56,6 +61,17 @@ ul li a {
   justify-content: left;
   padding: 50px;
   height: 1000px;
+}
+
+#container1 p {
+  font-size: 50px;
+  padding: 30px 60px;
+  background-color: rgba(255, 255, 255, 0.5)
+
+}
+
+.container1 img {
+  
 }
 
 #container2 {
