@@ -37,7 +37,7 @@ ul li a {
 
   background-color: white;
 }
-
+/*foto de cima - capa*/
 #container0 {
   position: relative;
   padding: 20px 0px;
@@ -167,3 +167,29 @@ ul li a {
   background-color: black;
 }
 
+@media (max-width: 1260px) {
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: left;
+    font-size: 15px;
+  }
+
+  #container0 {
+    font-size: 50px;
+    position: relative;
+    padding: 20px 0px;
+    justify-items: center;
+  }
+  
+  #container0 p {
+    display: flex;
+    position: absolute;
+  }
+  
+  #container0 p {
+    font-size: 20px;
+    padding: 10px 10px;
+    right: 60%;
+  }
+}
